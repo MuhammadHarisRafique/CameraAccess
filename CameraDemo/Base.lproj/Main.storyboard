@@ -50,17 +50,30 @@
                                     <action selector="cameraAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O8T-gb-n5G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TB7-9S-7X2">
+                                <rect key="frame" x="8" y="422" width="304" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KCQ-eq-yQh"/>
+                                </constraints>
+                                <state key="normal" title="Upload"/>
+                                <connections>
+                                    <action selector="uploadPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f5h-Ym-94E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="xw0-20-jB5" firstAttribute="width" secondItem="i4X-dW-kmf" secondAttribute="width" id="2Kw-Yl-v0K"/>
                             <constraint firstItem="xw0-20-jB5" firstAttribute="height" secondItem="i4X-dW-kmf" secondAttribute="height" id="34h-mO-9e3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TB7-9S-7X2" secondAttribute="bottom" constant="8" id="ROl-ub-4jv"/>
                             <constraint firstItem="xw0-20-jB5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="dTA-zV-dur"/>
                             <constraint firstItem="aKO-dG-FV4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eEM-9A-Y1E"/>
                             <constraint firstItem="xw0-20-jB5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fje-Im-7Je"/>
                             <constraint firstItem="i4X-dW-kmf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jDh-Vb-iVO"/>
+                            <constraint firstItem="TB7-9S-7X2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="oHY-ce-7Vk"/>
                             <constraint firstItem="i4X-dW-kmf" firstAttribute="leading" secondItem="xw0-20-jB5" secondAttribute="trailing" constant="8" id="pQY-3s-rwb"/>
                             <constraint firstItem="aKO-dG-FV4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tED-3M-qgF"/>
+                            <constraint firstAttribute="trailing" secondItem="TB7-9S-7X2" secondAttribute="trailing" constant="8" id="wYx-cC-nyk"/>
                             <constraint firstAttribute="trailing" secondItem="i4X-dW-kmf" secondAttribute="trailing" constant="20" id="wZS-OY-0pG"/>
                         </constraints>
                     </view>
@@ -73,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97" y="112"/>
+            <point key="canvasLocation" x="-56" y="65"/>
         </scene>
     </scenes>
 </document>
